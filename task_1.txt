@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log In</title>
+</head>
+<style>
+h1 {color:red;}
+p {color:blue;}
+</style>
+<div style="background-color:whitesmoke">
+<body style="background-color:rgb(204, 197, 197)">
+<center>
+<h1>Registration Page</h1>
+    <form>
+        <fieldset>
+        <div style="background-color:lightblue">
+            <p style="font-family:arial;">Name
+                <input type="text" value="name">
+            </p>
+        </div>
+            <p style="font-family:arial;">Email
+                <input type="text" value="emailid">
+            </p>
+        <div style="background-color:rgb(178, 241, 153)">
+            <p style="font-family:arial;">Age
+                 <input type="text" value="age">
+            </p>
+        </div>
+            <p style="font-family:arial;">Gender:
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male"<br>
+                <label for="male">Female</label>
+                <input type="radio" name="gender" id="female" value="female"<br>
+                <label for="male">Other</label>
+                <input type="radio" name="gender" id="other" value="other"<br>
+            </p>
+        <div style="background-color:rgb(226, 164, 221)">
+            <p style="font-family:arial;">Reg no
+                <input type="text" value="regno">
+            </p>
+        </div>
+            <p style="font-family:arial;">Phone
+                <input type="text" value="phone">
+            </p>
+            <p>
+                <input type="submit" value="Submit">
+            </p>
+        </fieldset>
+    </form>
+</center>
+</body>
+</div>
+<center>
+<h2><i> Already registered?</i></h2>
+<h2><i>See you at the event:)</i></h2>
+</center>
+</html>
+
+    
+
